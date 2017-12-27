@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBDBE13B1FEC9A66009B40F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDBE13A1FEC9A66009B40F3 /* AppDelegate.swift */; };
+		EBDBE13D1FEC9A66009B40F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDBE13C1FEC9A66009B40F3 /* ViewController.swift */; };
+		EBDBE13F1FEC9A66009B40F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDBE13E1FEC9A66009B40F3 /* Assets.xcassets */; };
+		EBDBE1421FEC9A66009B40F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBDBE1401FEC9A66009B40F3 /* Main.storyboard */; };
+		EBDBE14E1FEC9A66009B40F3 /* PokeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDBE14D1FEC9A66009B40F3 /* PokeCalculatorTests.swift */; };
+		EBDBE1591FEC9A66009B40F3 /* PokeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDBE1581FEC9A66009B40F3 /* PokeCalculatorUITests.swift */; };
+		EBDBE1671FEC9AA6009B40F3 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDBE1661FEC9AA6009B40F3 /* Calculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBDBE14A1FEC9A66009B40F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDBE12F1FEC9A66009B40F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDBE1361FEC9A66009B40F3;
+			remoteInfo = PokeCalculator;
+		};
+		EBDBE1551FEC9A66009B40F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBDBE12F1FEC9A66009B40F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBDBE1361FEC9A66009B40F3;
+			remoteInfo = PokeCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBDBE1371FEC9A66009B40F3 /* PokeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDBE13A1FEC9A66009B40F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBDBE13C1FEC9A66009B40F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBDBE13E1FEC9A66009B40F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBDBE1411FEC9A66009B40F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBDBE1431FEC9A66009B40F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDBE1441FEC9A66009B40F3 /* PokeCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokeCalculator.entitlements; sourceTree = "<group>"; };
+		EBDBE1491FEC9A66009B40F3 /* PokeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDBE14D1FEC9A66009B40F3 /* PokeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCalculatorTests.swift; sourceTree = "<group>"; };
+		EBDBE14F1FEC9A66009B40F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDBE1541FEC9A66009B40F3 /* PokeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDBE1581FEC9A66009B40F3 /* PokeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCalculatorUITests.swift; sourceTree = "<group>"; };
+		EBDBE15A1FEC9A66009B40F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDBE1661FEC9AA6009B40F3 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBDBE1341FEC9A66009B40F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDBE1461FEC9A66009B40F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDBE1511FEC9A66009B40F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBDBE12E1FEC9A66009B40F3 = {
+			isa = PBXGroup;
+			children = (
+				EBDBE1391FEC9A66009B40F3 /* PokeCalculator */,
+				EBDBE14C1FEC9A66009B40F3 /* PokeCalculatorTests */,
+				EBDBE1571FEC9A66009B40F3 /* PokeCalculatorUITests */,
+				EBDBE1381FEC9A66009B40F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBDBE1381FEC9A66009B40F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDBE1371FEC9A66009B40F3 /* PokeCalculator.app */,
+				EBDBE1491FEC9A66009B40F3 /* PokeCalculatorTests.xctest */,
+				EBDBE1541FEC9A66009B40F3 /* PokeCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBDBE1391FEC9A66009B40F3 /* PokeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EBDBE13A1FEC9A66009B40F3 /* AppDelegate.swift */,
+				EBDBE1661FEC9AA6009B40F3 /* Calculator.swift */,
+				EBDBE13C1FEC9A66009B40F3 /* ViewController.swift */,
+				EBDBE13E1FEC9A66009B40F3 /* Assets.xcassets */,
+				EBDBE1401FEC9A66009B40F3 /* Main.storyboard */,
+				EBDBE1431FEC9A66009B40F3 /* Info.plist */,
+				EBDBE1441FEC9A66009B40F3 /* PokeCalculator.entitlements */,
+			);
+			path = PokeCalculator;
+			sourceTree = "<group>";
+		};
+		EBDBE14C1FEC9A66009B40F3 /* PokeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDBE14D1FEC9A66009B40F3 /* PokeCalculatorTests.swift */,
+				EBDBE14F1FEC9A66009B40F3 /* Info.plist */,
+			);
+			path = PokeCalculatorTests;
+			sourceTree = "<group>";
+		};
+		EBDBE1571FEC9A66009B40F3 /* PokeCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBDBE1581FEC9A66009B40F3 /* PokeCalculatorUITests.swift */,
+				EBDBE15A1FEC9A66009B40F3 /* Info.plist */,
+			);
+			path = PokeCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBDBE1361FEC9A66009B40F3 /* PokeCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDBE15D1FEC9A66009B40F3 /* Build configuration list for PBXNativeTarget "PokeCalculator" */;
+			buildPhases = (
+				EBDBE1331FEC9A66009B40F3 /* Sources */,
+				EBDBE1341FEC9A66009B40F3 /* Frameworks */,
+				EBDBE1351FEC9A66009B40F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeCalculator;
+			productName = PokeCalculator;
+			productReference = EBDBE1371FEC9A66009B40F3 /* PokeCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBDBE1481FEC9A66009B40F3 /* PokeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDBE1601FEC9A66009B40F3 /* Build configuration list for PBXNativeTarget "PokeCalculatorTests" */;
+			buildPhases = (
+				EBDBE1451FEC9A66009B40F3 /* Sources */,
+				EBDBE1461FEC9A66009B40F3 /* Frameworks */,
+				EBDBE1471FEC9A66009B40F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDBE14B1FEC9A66009B40F3 /* PBXTargetDependency */,
+			);
+			name = PokeCalculatorTests;
+			productName = PokeCalculatorTests;
+			productReference = EBDBE1491FEC9A66009B40F3 /* PokeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBDBE1531FEC9A66009B40F3 /* PokeCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBDBE1631FEC9A66009B40F3 /* Build configuration list for PBXNativeTarget "PokeCalculatorUITests" */;
+			buildPhases = (
+				EBDBE1501FEC9A66009B40F3 /* Sources */,
+				EBDBE1511FEC9A66009B40F3 /* Frameworks */,
+				EBDBE1521FEC9A66009B40F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBDBE1561FEC9A66009B40F3 /* PBXTargetDependency */,
+			);
+			name = PokeCalculatorUITests;
+			productName = PokeCalculatorUITests;
+			productReference = EBDBE1541FEC9A66009B40F3 /* PokeCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBDBE12F1FEC9A66009B40F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Aimun Khan";
+				TargetAttributes = {
+					EBDBE1361FEC9A66009B40F3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EBDBE1481FEC9A66009B40F3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBDBE1361FEC9A66009B40F3;
+					};
+					EBDBE1531FEC9A66009B40F3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBDBE1361FEC9A66009B40F3;
+					};
+				};
+			};
+			buildConfigurationList = EBDBE1321FEC9A66009B40F3 /* Build configuration list for PBXProject "PokeCalculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBDBE12E1FEC9A66009B40F3;
+			productRefGroup = EBDBE1381FEC9A66009B40F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBDBE1361FEC9A66009B40F3 /* PokeCalculator */,
+				EBDBE1481FEC9A66009B40F3 /* PokeCalculatorTests */,
+				EBDBE1531FEC9A66009B40F3 /* PokeCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBDBE1351FEC9A66009B40F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDBE13F1FEC9A66009B40F3 /* Assets.xcassets in Resources */,
+				EBDBE1421FEC9A66009B40F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDBE1471FEC9A66009B40F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDBE1521FEC9A66009B40F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBDBE1331FEC9A66009B40F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDBE13D1FEC9A66009B40F3 /* ViewController.swift in Sources */,
+				EBDBE13B1FEC9A66009B40F3 /* AppDelegate.swift in Sources */,
+				EBDBE1671FEC9AA6009B40F3 /* Calculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDBE1451FEC9A66009B40F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDBE14E1FEC9A66009B40F3 /* PokeCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDBE1501FEC9A66009B40F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDBE1591FEC9A66009B40F3 /* PokeCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBDBE14B1FEC9A66009B40F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDBE1361FEC9A66009B40F3 /* PokeCalculator */;
+			targetProxy = EBDBE14A1FEC9A66009B40F3 /* PBXContainerItemProxy */;
+		};
+		EBDBE1561FEC9A66009B40F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBDBE1361FEC9A66009B40F3 /* PokeCalculator */;
+			targetProxy = EBDBE1551FEC9A66009B40F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBDBE1401FEC9A66009B40F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBDBE1411FEC9A66009B40F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBDBE15B1FEC9A66009B40F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBDBE15C1FEC9A66009B40F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		EBDBE15E1FEC9A66009B40F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PokeCalculator/PokeCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aimun-Khan.PokeCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		EBDBE15F1FEC9A66009B40F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PokeCalculator/PokeCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aimun-Khan.PokeCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		EBDBE1611FEC9A66009B40F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokeCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aimun-Khan.PokeCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeCalculator.app/Contents/MacOS/PokeCalculator";
+			};
+			name = Debug;
+		};
+		EBDBE1621FEC9A66009B40F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokeCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aimun-Khan.PokeCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeCalculator.app/Contents/MacOS/PokeCalculator";
+			};
+			name = Release;
+		};
+		EBDBE1641FEC9A66009B40F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokeCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aimun-Khan.PokeCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = PokeCalculator;
+			};
+			name = Debug;
+		};
+		EBDBE1651FEC9A66009B40F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokeCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aimun-Khan.PokeCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = PokeCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBDBE1321FEC9A66009B40F3 /* Build configuration list for PBXProject "PokeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDBE15B1FEC9A66009B40F3 /* Debug */,
+				EBDBE15C1FEC9A66009B40F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDBE15D1FEC9A66009B40F3 /* Build configuration list for PBXNativeTarget "PokeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDBE15E1FEC9A66009B40F3 /* Debug */,
+				EBDBE15F1FEC9A66009B40F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDBE1601FEC9A66009B40F3 /* Build configuration list for PBXNativeTarget "PokeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDBE1611FEC9A66009B40F3 /* Debug */,
+				EBDBE1621FEC9A66009B40F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBDBE1631FEC9A66009B40F3 /* Build configuration list for PBXNativeTarget "PokeCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDBE1641FEC9A66009B40F3 /* Debug */,
+				EBDBE1651FEC9A66009B40F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBDBE12F1FEC9A66009B40F3 /* Project object */;
+}
